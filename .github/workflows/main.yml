@@ -36,5 +36,5 @@ jobs:
           server: ftp.systems.tn
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          server-dir: /
+          server-dir: /public_html
           
