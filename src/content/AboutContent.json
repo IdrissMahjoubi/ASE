@@ -5,22 +5,22 @@
     {
       "title": "IT solutions",
       "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "icon": "IT.svg"
     },
     {
       "title": "Aeronautics",
       "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "icon": "AERONAUTICS.svg"
     },
     {
       "title": "Physical access control",
       "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "icon": "PAC.svg"
     },
     {
       "title": "Border access control",
       "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "icon": "BAC.svg"
     }
   ]
 }
