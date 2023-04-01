@@ -50,7 +50,6 @@ export const Para = styled("div")`
 `;
 
 export const Large = styled(Link)<any>`
-  font-size: 16px;
   color: #000;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -64,7 +63,7 @@ export const Large = styled(Link)<any>`
   &:hover {
     color: rgb(255, 130, 92);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: rgb(255, 130, 92) underline;
   }
 `;
 

@@ -60,7 +60,7 @@ export const NotHidden = styled("div")`
   }
 `;
 
-export const Menu = styled("h5")`
+export const Menu = styled("h1")`
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
@@ -99,6 +99,6 @@ export const Span = styled("span")`
   &:focus {
     color: rgb(255, 130, 92);
     text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
+    text-decoration: rgb(255, 130, 92) underline;
   }
 `;

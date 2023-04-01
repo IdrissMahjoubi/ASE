@@ -6,12 +6,14 @@ export const Styles = createGlobalStyle`
         font-family: "Motiva Sans Light";
         src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
         font-style: normal;
+        font-size: 22px;        
     }
 
     @font-face {
         font-family: "Motiva Sans Bold";
         src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
         font-style: normal;
+        font-size: 22px;        
     }
 
 
@@ -51,7 +53,22 @@ export const Styles = createGlobalStyle`
         }
     }
 
-    h1,
+    h1 {
+        {
+            font-family: 'Motiva Sans Bold', serif;
+            color: #000b30;
+            font-size: 56px;
+            line-height: 1.18;
+    
+            @media only screen and (max-width: 890px) {
+              font-size: 47px;
+            }
+          
+            @media only screen and (max-width: 414px) {
+              font-size: 32px;
+            }
+        }
+    }
     h2,
     h3,
     h4,
@@ -59,21 +76,21 @@ export const Styles = createGlobalStyle`
     h6 {
         font-family: 'Motiva Sans Bold', serif;
         color: #000b30;
-        font-size: 56px;
+        font-size: 36px;
         line-height: 1.18;
 
         @media only screen and (max-width: 890px) {
-          font-size: 47px;
+          font-size: 27px;
         }
       
         @media only screen and (max-width: 414px) {
-          font-size: 32px;
+          font-size: 12px;
         }
     }
 
     p {
         color: #000b30;
-        font-size: 21px;        
+        font-size: 22px;        
         line-height: 1.41;
     }
 

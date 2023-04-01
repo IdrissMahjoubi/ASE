@@ -7,10 +7,12 @@ import {
   LeftContentSection,
   Content,
   ContentWrapper,
-  ServiceWrapper,
   MinTitle,
   MinPara,
+  SectionWrapper,
+  SectionItem,
 } from "./styles";
+import { Link } from "react-router-dom";
 
 const LeftContentBlock = ({
   icon,
@@ -23,28 +25,38 @@ const LeftContentBlock = ({
   return (
     <LeftContentSection>
       <Fade direction="left">
-        <Row justify="space-between" align="middle" id={id}>
-          <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
-          </Col>
+        <Row justify="space-around" align="middle" id={id}>
+          {icon && (
+            <Col lg={11} md={11} sm={12} xs={24}>
+              <SvgIcon src={icon} width="100%" height="100%" />
+            </Col>
+          )}
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
-              <h6>{t(title)}</h6>
+              <h1>{t(title)}</h1>
               <Content>{t(content)}</Content>
-              <ServiceWrapper>
+              <SectionWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&
                     section.map((item: any, id: number) => {
                       return (
                         <Col key={id} span={11}>
-                          <SvgIcon src={item.icon} width="60px" height="60px" />
-                          <MinTitle>{t(item.title)}</MinTitle>
-                          <MinPara>{t(item.content)}</MinPara>
+                          <Link to={`solutions/${item.route}`}>
+                            <SectionItem>
+                              <SvgIcon
+                                src={item.icon}
+                                width="60px"
+                                height="60px"
+                              />
+                              <MinTitle>{t(item.title)}</MinTitle>
+                              <MinPara>{t(item.content)}</MinPara>
+                            </SectionItem>
+                          </Link>
                         </Col>
                       );
                     })}
                 </Row>
-              </ServiceWrapper>
+              </SectionWrapper>
             </ContentWrapper>
           </Col>
         </Row>

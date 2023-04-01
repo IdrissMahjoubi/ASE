@@ -22,19 +22,36 @@ export const ContentWrapper = styled("div")`
   }
 `;
 
-export const ServiceWrapper = styled("div")`
+export const SectionWrapper = styled("div")`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 100%;
 `;
 
-export const MinTitle = styled("h6")`
+export const SectionItem = styled("div")`
+  background: linear-gradient(#FFF2F2 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+  transition: 0.4s, background-position 0s;
+  &:hover,
+  &:active,
+  &:focus {
+    color: #FFF2F2;
+    --p: 100%;
+    cursor: pointer;
+  }
+  border: 1px solid #AFEFFF;
+  margin: 5px;
+  padding: 12px;
+  height: 210px;
+`;
+
+export const MinTitle = styled("h1")`
   font-size: 15px;
   line-height: 1rem;
   padding: 0.5rem 0;
   text-transform: uppercase;
   color: #000;
   font-family: "Motiva Sans Light", sans-serif;
+  font-weight: bold;
 `;
 
 export const MinPara = styled("p")`

@@ -1,14 +1,14 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
-import MiddleBlockContent from "../../content/MiddleBlockContent.json";
+import UseCases from "../../content/UseCases.json";
 import AboutContent from "../../content/AboutContent.json";
 import ContactContent from "../../content/ContactContent.json";
 
-const Contact = lazy(() => import("../../components/ContactForm"));
-const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
-const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const Contact = lazy(() => import("../../components/ContactForm"));
+const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 
 const Home = () => {
   return (
@@ -23,17 +23,16 @@ const Home = () => {
         id="intro"
       />
       <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+        title={AboutContent.title}
+        content={AboutContent.text}
       />
       <ContentBlock
         type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
+        title={UseCases.title}
+        content={UseCases.text}
+        section={UseCases.section}
         icon="drone.svg"
-        id="solutions"
+        id="use-cases"
       />
       <Contact
         title={ContactContent.title}
