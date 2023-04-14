@@ -177,11 +177,9 @@ const Pac = () => {
   const [isOpen, toggle] = useState(false);
 
   const handleOpenModal = () => {
-    console.log("open modal");
     toggle(true);
   };
   const handleCloseModal = () => {
-    console.log("close modal");
     toggle(false);
   };
   return (
