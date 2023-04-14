@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/idrissmahjoubi.github.io/static/css/main.10e24b16.css",
+    "main.js": "/idrissmahjoubi.github.io/static/js/main.a0de801a.js",
+    "static/js/261.8d6ec255.chunk.js": "/idrissmahjoubi.github.io/static/js/261.8d6ec255.chunk.js",
+    "static/js/299.6d24aa7a.chunk.js": "/idrissmahjoubi.github.io/static/js/299.6d24aa7a.chunk.js",
+    "static/js/656.5700bd9a.chunk.js": "/idrissmahjoubi.github.io/static/js/656.5700bd9a.chunk.js",
+    "static/js/532.ed91cbac.chunk.js": "/idrissmahjoubi.github.io/static/js/532.ed91cbac.chunk.js",
+    "static/js/881.6fe8f481.chunk.js": "/idrissmahjoubi.github.io/static/js/881.6fe8f481.chunk.js",
+    "static/js/326.8e40a26b.chunk.js": "/idrissmahjoubi.github.io/static/js/326.8e40a26b.chunk.js",
+    "static/js/281.262e1c0a.chunk.js": "/idrissmahjoubi.github.io/static/js/281.262e1c0a.chunk.js",
+    "static/js/609.8db6dc2d.chunk.js": "/idrissmahjoubi.github.io/static/js/609.8db6dc2d.chunk.js",
+    "static/js/333.7e20ce39.chunk.js": "/idrissmahjoubi.github.io/static/js/333.7e20ce39.chunk.js",
+    "static/js/796.e1acf2b8.chunk.js": "/idrissmahjoubi.github.io/static/js/796.e1acf2b8.chunk.js",
+    "static/js/66.119d3ade.chunk.js": "/idrissmahjoubi.github.io/static/js/66.119d3ade.chunk.js",
+    "static/js/110.6cad0257.chunk.js": "/idrissmahjoubi.github.io/static/js/110.6cad0257.chunk.js",
+    "index.html": "/idrissmahjoubi.github.io/index.html",
+    "main.10e24b16.css.map": "/idrissmahjoubi.github.io/static/css/main.10e24b16.css.map",
+    "main.a0de801a.js.map": "/idrissmahjoubi.github.io/static/js/main.a0de801a.js.map",
+    "261.8d6ec255.chunk.js.map": "/idrissmahjoubi.github.io/static/js/261.8d6ec255.chunk.js.map",
+    "299.6d24aa7a.chunk.js.map": "/idrissmahjoubi.github.io/static/js/299.6d24aa7a.chunk.js.map",
+    "656.5700bd9a.chunk.js.map": "/idrissmahjoubi.github.io/static/js/656.5700bd9a.chunk.js.map",
+    "532.ed91cbac.chunk.js.map": "/idrissmahjoubi.github.io/static/js/532.ed91cbac.chunk.js.map",
+    "881.6fe8f481.chunk.js.map": "/idrissmahjoubi.github.io/static/js/881.6fe8f481.chunk.js.map",
+    "326.8e40a26b.chunk.js.map": "/idrissmahjoubi.github.io/static/js/326.8e40a26b.chunk.js.map",
+    "281.262e1c0a.chunk.js.map": "/idrissmahjoubi.github.io/static/js/281.262e1c0a.chunk.js.map",
+    "609.8db6dc2d.chunk.js.map": "/idrissmahjoubi.github.io/static/js/609.8db6dc2d.chunk.js.map",
+    "333.7e20ce39.chunk.js.map": "/idrissmahjoubi.github.io/static/js/333.7e20ce39.chunk.js.map",
+    "796.e1acf2b8.chunk.js.map": "/idrissmahjoubi.github.io/static/js/796.e1acf2b8.chunk.js.map",
+    "66.119d3ade.chunk.js.map": "/idrissmahjoubi.github.io/static/js/66.119d3ade.chunk.js.map",
+    "110.6cad0257.chunk.js.map": "/idrissmahjoubi.github.io/static/js/110.6cad0257.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e24b16.css",
+    "static/js/main.a0de801a.js"
+  ]
+}
